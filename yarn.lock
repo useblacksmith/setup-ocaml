@@ -12,9 +12,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actions/cache@npm:@useblacksmith/cache@3.2.41":
-  version: 3.2.41
-  resolution: "@useblacksmith/cache@npm:3.2.41"
+"@actions/cache@npm:@useblacksmith/cache@3.2.48":
+  version: 3.2.48
+  resolution: "@useblacksmith/cache@npm:3.2.48"
   dependencies:
     "@actions/core": "npm:^1.10.0"
     "@actions/exec": "npm:^1.0.1"
@@ -26,7 +26,7 @@ __metadata:
     "@azure/storage-blob": "npm:^12.13.0"
     semver: "npm:^6.1.0"
     uuid: "npm:^3.3.3"
-  checksum: 10c0/18fb8ae9e54f0bc7526017205e98d84d83a5ce5e10f9b7b57de645909cd50edb25f19dcd0d4c4a77d6003be1a64a63fb8b35bc1404314f6d59bae4adcb4bd4bc
+  checksum: 10c0/a3afcac1b20b338c53307b00f0bebd7cce7ca3ce1ab1c55cd329dca27bf162c759c4a51760014e3162bf24511d5998600aea2725cb24b3c717cf0ec1510acae3
   languageName: node
   linkType: hard
 
@@ -525,7 +525,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ocaml/setup-ocaml@workspace:packages/setup-ocaml"
   dependencies:
-    "@actions/cache": "npm:@useblacksmith/cache@3.2.41"
+    "@actions/cache": "npm:@useblacksmith/cache@3.2.48"
     "@actions/core": "npm:1.10.1"
     "@actions/exec": "npm:1.1.1"
     "@actions/github": "npm:6.0.0"
