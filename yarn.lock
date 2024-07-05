@@ -12,9 +12,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@actions/cache@npm:@useblacksmith/cache@3.2.125":
-  version: 3.2.125
-  resolution: "@useblacksmith/cache@npm:3.2.125"
+"@actions/cache@npm:@useblacksmith/cache@3.2.131":
+  version: 3.2.131
+  resolution: "@useblacksmith/cache@npm:3.2.131"
   dependencies:
     "@actions/core": "npm:^1.10.0"
     "@actions/exec": "npm:^1.0.1"
@@ -29,7 +29,7 @@ __metadata:
     axios-retry: "npm:^4.1.0"
     semver: "npm:^6.1.0"
     uuid: "npm:^3.3.3"
-  checksum: 10c0/3583312d21bbe9798a2978f89285620a048677c8383c46f10af637a9e38b5756c3629dca8ffba3bed886011be66063dabd7085a86cfd4fa95039259c64dfd5b7
+  checksum: 10c0/a57ba2f7f9667c73b868f23cea4ee142167f6dee1fdcd48742d2efe8619287e55453826b4daaef4f30ba37c3f079951bec1c1f0a9491ba2a2989269abdcbc747
   languageName: node
   linkType: hard
 
@@ -528,7 +528,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@ocaml/setup-ocaml@workspace:packages/setup-ocaml"
   dependencies:
-    "@actions/cache": "npm:@useblacksmith/cache@3.2.125"
+    "@actions/cache": "npm:@useblacksmith/cache@3.2.131"
     "@actions/core": "npm:1.10.1"
     "@actions/exec": "npm:1.1.1"
     "@actions/github": "npm:6.0.0"
