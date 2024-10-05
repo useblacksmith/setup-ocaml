@@ -29,13 +29,17 @@ jobs:
           cd packages/setup-ocaml
     
       - name: Update package.json
+        working-directory: packages/setup-ocaml
         run: |
           sed -i 's/"@actions\/cache": "npm:@useblacksmith\/cache@[^"]*"/"@actions\/cache": "npm:@useblacksmith\/cache@${{ github.event.inputs.cache_version }}"/' package.json
+
       - name: Install dependencies
-        run: npm install
+        working-directory: packages/setup-ocaml
+        run: yarn install
 
       - name: Build
-        run: npm run build
+        working-directory: packages/setup-ocaml
+        run: yarn build
 
       - name: Check for changes
         id: git-check
