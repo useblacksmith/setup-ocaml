@@ -26,6 +26,7 @@ jobs:
           branch_name="bump-cache-version-${{ github.event.inputs.cache_version }}-$timestamp"
           git checkout -b $branch_name
           echo "branch_name=$branch_name" >> $GITHUB_OUTPUT
+          cd packages/setup-ocaml
     
       - name: Update package.json
         run: |
